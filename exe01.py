@@ -17,5 +17,5 @@ def parseDate(date: str):
 		print(e)
 
 
-data = input("Insira uma data: ")
+data = input("Insira uma data (dd/mm/yyyy): ")
 dia, mes, ano = parseDate(data)
